@@ -65,8 +65,8 @@
     "multicast": "2024.03.0",
     "observer": "2023.06.0",
     "image": {
-        "core": "keefeastera/young-core-amd64",
-        "supervisor": "keefeastera/young-supervisor-amd64",
+        "core": "keefeastera/young-core-{arch}",
+        "supervisor": "keefeastera/young-supervisor-{arch}",
         "cli": "homeassistant/{arch}-hassio-cli",
         "audio": "homeassistant/{arch}-hassio-audio",
         "dns": "homeassistant/{arch}-hassio-dns",
@@ -74,8 +74,8 @@
         "multicast": "homeassistant/{arch}-hassio-multicast"
     },
     "images": {
-        "core": "docker.io/keefeastera/young-core-amd64",
-        "supervisor": "docker.io/keefeastera/young-supervisor-amd64",
+        "core": "docker.io/keefeastera/young-core-{arch}",
+        "supervisor": "docker.io/keefeastera/young-supervisor-{arch}",
         "cli": "ghcr.io/home-assistant/{arch}-hassio-cli",
         "audio": "ghcr.io/home-assistant/{arch}-hassio-audio",
         "dns": "ghcr.io/home-assistant/{arch}-hassio-dns",
