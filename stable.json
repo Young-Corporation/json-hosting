@@ -74,7 +74,7 @@
         "multicast": "homeassistant/{arch}-hassio-multicast"
     },
     "images": {
-        "core": "docker.io/keefeastera/young-core-{arch}",
+        "core": "docker.io/keefeastera/young-core-{machine}",
         "supervisor": "docker.io/keefeastera/young-supervisor-{arch}",
         "cli": "ghcr.io/home-assistant/{arch}-hassio-cli",
         "audio": "ghcr.io/home-assistant/{arch}-hassio-audio",
