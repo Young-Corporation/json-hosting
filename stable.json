@@ -65,7 +65,7 @@
     "multicast": "2024.03.0",
     "observer": "2023.06.0",
     "image": {
-        "core": "keefeastera/young-core-{arch}",
+        "core": "keefeastera/young-core-{machine}",
         "supervisor": "keefeastera/young-supervisor-{arch}",
         "cli": "homeassistant/{arch}-hassio-cli",
         "audio": "homeassistant/{arch}-hassio-audio",
