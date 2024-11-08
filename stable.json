@@ -65,7 +65,7 @@
     "multicast": "2024.03.0",
     "observer": "2023.06.0",
     "image": {
-        "core": "keefeastera/young-core-{machine}",
+        "core": "ghcr.io/home-assistant/{self.sys_machine}-homeassisstant",
         "supervisor": "keefeastera/young-supervisor-{arch}",
         "cli": "homeassistant/{arch}-hassio-cli",
         "audio": "homeassistant/{arch}-hassio-audio",
@@ -74,7 +74,7 @@
         "multicast": "homeassistant/{arch}-hassio-multicast"
     },
     "images": {
-        "core": "docker.io/keefeastera/young-core-{machine}",
+        "core": "ghcr.io/home-assistant/{self.sys_machine}-homeassisstant",
         "supervisor": "docker.io/keefeastera/young-supervisor-{arch}",
         "cli": "ghcr.io/home-assistant/{arch}-hassio-cli",
         "audio": "ghcr.io/home-assistant/{arch}-hassio-audio",
