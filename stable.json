@@ -4,7 +4,7 @@
     "homeassistant": {
         "default": "2024.10.24",
         "qemux86": "2024.10.24",
-        "qemux86-64": "2024.11.8",
+        "qemux86-64": "2024.11.11",
         "qemuarm": "2024.10.1",
         "qemuarm-64": "2024.10.24",
         "generic-x86-64": "2024.10.24",
@@ -15,7 +15,7 @@
         "raspberrypi3": "2024.10.1",
         "raspberrypi3-64": "2024.10.1",
         "raspberrypi4": "2024.10.1",
-        "raspberrypi4-64": "2024.11.8",
+        "raspberrypi4-64": "2024.11.11",
         "raspberrypi5-64": "2024.10.1",
         "yellow": "2024.10.1",
         "green": "2024.10.1",
@@ -65,7 +65,7 @@
     "multicast": "2024.03.0",
     "observer": "2023.06.0",
     "image": {
-        "core": "ghcr.io/home-assistant/{self.sys_machine}-homeassisstant",
+        "core": "docker.io/keefeastera/young-core-{machine}",
         "supervisor": "keefeastera/young-supervisor-{arch}",
         "cli": "homeassistant/{arch}-hassio-cli",
         "audio": "homeassistant/{arch}-hassio-audio",
@@ -74,7 +74,7 @@
         "multicast": "homeassistant/{arch}-hassio-multicast"
     },
     "images": {
-        "core": "ghcr.io/home-assistant/{self.sys_machine}-homeassisstant",
+        "core": "docker.io/keefeastera/young-core-{machine}",
         "supervisor": "docker.io/keefeastera/young-supervisor-{arch}",
         "cli": "ghcr.io/home-assistant/{arch}-hassio-cli",
         "audio": "ghcr.io/home-assistant/{arch}-hassio-audio",
