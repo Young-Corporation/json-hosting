@@ -1,10 +1,10 @@
 {
   "channel": "dev",
-  "supervisor": "2025.02.5",
+  "supervisor": "2025.2.6",
   "homeassistant": {
     "default": "2025.1.4",
     "qemux86": "2025.1.4",
-    "qemux86-64": "2025.02.5",
+    "qemux86-64": "2025.2.6",
     "qemuarm": "2025.1.4",
     "qemuarm-64": "2025.1.4",
     "generic-x86-64": "2025.1.4",
