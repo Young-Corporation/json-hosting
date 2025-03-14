@@ -1,5 +1,5 @@
 {
-  "channel": "stable",
+  "channel": "dev",
   "supervisor": "2025.3.6",
   "homeassistant": {
     "default": "2025.3.6",
