@@ -1,10 +1,10 @@
 {
   "channel": "dev",
-  "supervisor": "2025.3.20",
+  "supervisor": "2025.3.28",
   "homeassistant": {
-    "default": "2025.3.20",
+    "default": "2025.3.28",
     "qemux86": "2025.1.4",
-    "qemux86-64": "2025.3.20",
+    "qemux86-64": "2025.3.28",
     "qemuarm": "2025.1.4",
     "qemuarm-64": "2025.1.4",
     "generic-x86-64": "2025.1.4",
@@ -15,7 +15,7 @@
     "raspberrypi3": "2025.1.4",
     "raspberrypi3-64": "2025.1.4",
     "raspberrypi4": "2025.1.4",
-    "raspberrypi4-64": "2025.3.20",
+    "raspberrypi4-64": "2025.3.28",
     "raspberrypi5-64": "2025.1.4",
     "yellow": "2025.1.4",
     "green": "2025.1.4",
