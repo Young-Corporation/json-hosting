@@ -3,7 +3,7 @@
   "supervisor": "2025.3.28",
   "homeassistant": {
     "default": "2025.3.28",
-    "qemux86-64": "2025.3.28",
+    "qemux86-64": "2025.4.25",
     "qemuarm-64": "2025.1.4",
     "generic-x86-64": "2025.1.4",
     "intel-nuc": "2025.1.4",
